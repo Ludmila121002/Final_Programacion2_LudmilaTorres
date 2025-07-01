@@ -357,14 +357,14 @@ header .mobile-nav {
 }
 .project .container .content .projects .card img {
   width: 100%;
-  height: 50%;
+  height: 75%;
 }
 
 .project .container .content .projects .card .description {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  height: 50%;
+  height: 25%;
 }
 .project .container .content .projects .card .description h1 {
   font-weight: bold;
@@ -708,6 +708,10 @@ footer .container .link-container .navigation ul li a {
     display: none;
   }
 
+  .hero .container .content svg text {
+    font-size: 10rem;
+  }
+
   /* Mostrar menú hamburguesa */
   header .hamburger-menu {
     display: block;
@@ -882,7 +886,7 @@ footer .container .link-container .navigation ul li a {
 
   /* Hero Section */
   .hero .container .content svg text {
-    font-size: 2.5rem;
+    font-size: 10rem;
   }
 
   /* Habilidades */
